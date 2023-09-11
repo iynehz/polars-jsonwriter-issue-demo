@@ -10,9 +10,7 @@ polars = { version = "0.32.1", features = [
     "lazy",
     "parquet",
     "polars-io",
-    "serde",
-    "serde-lazy",
-    "temporal"
+    "serde"
     ]}
 serde = { version = "1.0.188", features = ["derive"] }
 serde_json = { version = "1.0.105" }
